@@ -74,7 +74,11 @@
                         <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="jNb-qy-umD"/>
                     </connections>
                 </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="gbR-Mu-Mre"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gbR-Mu-Mre">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="eKm-76-ugD"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
