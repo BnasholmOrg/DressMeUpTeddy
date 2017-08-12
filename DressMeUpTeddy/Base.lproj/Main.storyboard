@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DressMeUpTeddy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +22,66 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirt.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2fl-kX-sD4">
+                                <rect key="frame" x="21" y="508" width="144" height="128"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="0k5-Xq-9aI"/>
+                                    <constraint firstAttribute="height" constant="128" id="4ga-Im-IwT"/>
+                                    <constraint firstAttribute="width" secondItem="2fl-kX-sD4" secondAttribute="height" multiplier="9:8" id="QKd-ty-5Rw"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YDs-jd-uca" appends="YES" id="075-Aq-AbQ"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pants.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P5Z-n2-Gqr">
+                                <rect key="frame" x="208" y="508" width="141" height="128"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="gpt-HM-Vpk"/>
+                                    <constraint firstAttribute="width" constant="141" id="mtj-oa-PLK"/>
+                                    <constraint firstAttribute="width" secondItem="P5Z-n2-Gqr" secondAttribute="height" multiplier="141:128" id="v0T-GV-p4k"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gbR-Mu-Mre" appends="YES" id="eGg-nO-apC"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teddy-bear-pics-15.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xpe-sj-vd5">
+                                <rect key="frame" x="-26" y="70" width="426" height="430"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="426" id="HdT-Q5-EI9"/>
+                                    <constraint firstAttribute="width" secondItem="Xpe-sj-vd5" secondAttribute="height" multiplier="426:430" id="a08-EG-Phv"/>
+                                    <constraint firstAttribute="height" constant="430" id="vkG-E1-UmW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xpe-sj-vd5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0vC-mn-KrY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2fl-kX-sD4" secondAttribute="bottom" constant="31" id="6wm-G3-WIL"/>
+                            <constraint firstItem="Xpe-sj-vd5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HjA-Lf-373"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P5Z-n2-Gqr" secondAttribute="trailing" constant="10" id="KHl-7r-coK"/>
+                            <constraint firstItem="2fl-kX-sD4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="l44-Xa-jcu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="P5Z-n2-Gqr" secondAttribute="bottom" constant="31" id="qZM-1T-Gmb"/>
+                            <constraint firstItem="Xpe-sj-vd5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="slq-xR-glx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="YDs-jd-uca">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="jNb-qy-umD"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gbR-Mu-Mre"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pants.jpg" width="217" height="204"/>
+        <image name="shirt.jpg" width="217" height="204"/>
+        <image name="teddy-bear-pics-15.jpg" width="1024" height="840"/>
+    </resources>
 </document>

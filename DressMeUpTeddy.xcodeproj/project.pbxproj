@@ -12,6 +12,11 @@
 		60633F1F1F3E7D87003480AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60633F1D1F3E7D87003480AD /* Main.storyboard */; };
 		60633F211F3E7D87003480AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60633F201F3E7D87003480AD /* Assets.xcassets */; };
 		60633F241F3E7D87003480AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60633F221F3E7D87003480AD /* LaunchScreen.storyboard */; };
+		60633F301F3E7DDE003480AD /* pants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2B1F3E7DDE003480AD /* pants.jpg */; };
+		60633F311F3E7DDE003480AD /* shirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2C1F3E7DDE003480AD /* shirt.jpg */; };
+		60633F321F3E7DDE003480AD /* teddy-bear-pics-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2D1F3E7DDE003480AD /* teddy-bear-pics-15.jpg */; };
+		60633F331F3E7DDE003480AD /* teddywshirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2E1F3E7DDE003480AD /* teddywshirt.jpg */; };
+		60633F341F3E7DDE003480AD /* teddywshirtandpants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2F1F3E7DDE003480AD /* teddywshirtandpants.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		60633F201F3E7D87003480AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60633F231F3E7D87003480AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60633F251F3E7D87003480AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60633F2B1F3E7DDE003480AD /* pants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pants.jpg; sourceTree = "<group>"; };
+		60633F2C1F3E7DDE003480AD /* shirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt.jpg; sourceTree = "<group>"; };
+		60633F2D1F3E7DDE003480AD /* teddy-bear-pics-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "teddy-bear-pics-15.jpg"; sourceTree = "<group>"; };
+		60633F2E1F3E7DDE003480AD /* teddywshirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddywshirt.jpg; sourceTree = "<group>"; };
+		60633F2F1F3E7DDE003480AD /* teddywshirtandpants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddywshirtandpants.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		60633F181F3E7D87003480AD /* DressMeUpTeddy */ = {
 			isa = PBXGroup;
 			children = (
+				60633F351F3E7DF1003480AD /* Images */,
 				60633F191F3E7D87003480AD /* AppDelegate.swift */,
 				60633F1B1F3E7D87003480AD /* ViewController.swift */,
 				60633F1D1F3E7D87003480AD /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				60633F251F3E7D87003480AD /* Info.plist */,
 			);
 			path = DressMeUpTeddy;
+			sourceTree = "<group>";
+		};
+		60633F351F3E7DF1003480AD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				60633F2B1F3E7DDE003480AD /* pants.jpg */,
+				60633F2C1F3E7DDE003480AD /* shirt.jpg */,
+				60633F2D1F3E7DDE003480AD /* teddy-bear-pics-15.jpg */,
+				60633F2E1F3E7DDE003480AD /* teddywshirt.jpg */,
+				60633F2F1F3E7DDE003480AD /* teddywshirtandpants.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +149,12 @@
 			files = (
 				60633F241F3E7D87003480AD /* LaunchScreen.storyboard in Resources */,
 				60633F211F3E7D87003480AD /* Assets.xcassets in Resources */,
+				60633F341F3E7DDE003480AD /* teddywshirtandpants.jpg in Resources */,
+				60633F331F3E7DDE003480AD /* teddywshirt.jpg in Resources */,
+				60633F311F3E7DDE003480AD /* shirt.jpg in Resources */,
+				60633F301F3E7DDE003480AD /* pants.jpg in Resources */,
 				60633F1F1F3E7D87003480AD /* Main.storyboard in Resources */,
+				60633F321F3E7DDE003480AD /* teddy-bear-pics-15.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
