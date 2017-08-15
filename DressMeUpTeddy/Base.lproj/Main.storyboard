@@ -23,6 +23,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teddy.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xpe-sj-vd5">
+                                <rect key="frame" x="-26" y="70" width="426" height="430"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="426" id="HdT-Q5-EI9"/>
+                                    <constraint firstAttribute="width" secondItem="Xpe-sj-vd5" secondAttribute="height" multiplier="426:430" id="a08-EG-Phv"/>
+                                    <constraint firstAttribute="height" constant="430" id="vkG-E1-UmW"/>
+                                </constraints>
+                            </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirt-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="2fl-kX-sD4">
                                 <rect key="frame" x="21" y="508" width="144" height="128"/>
                                 <gestureRecognizers/>
@@ -46,14 +54,6 @@
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="gbR-Mu-Mre" appends="YES" id="eGg-nO-apC"/>
                                 </connections>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teddy.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xpe-sj-vd5">
-                                <rect key="frame" x="-26" y="70" width="426" height="430"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="426" id="HdT-Q5-EI9"/>
-                                    <constraint firstAttribute="width" secondItem="Xpe-sj-vd5" secondAttribute="height" multiplier="426:430" id="a08-EG-Phv"/>
-                                    <constraint firstAttribute="height" constant="430" id="vkG-E1-UmW"/>
-                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
