@@ -43,7 +43,7 @@
                                     <outletCollection property="gestureRecognizers" destination="YDs-jd-uca" appends="YES" id="075-Aq-AbQ"/>
                                 </connections>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pant-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="P5Z-n2-Gqr">
+                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pant-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="P5Z-n2-Gqr">
                                 <rect key="frame" x="208" y="508" width="141" height="128"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -55,6 +55,14 @@
                                     <outletCollection property="gestureRecognizers" destination="gbR-Mu-Mre" appends="YES" id="eGg-nO-apC"/>
                                 </connections>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJ4-ud-anO">
+                                <rect key="frame" x="290" y="20" width="69" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="trashcan.png"/>
+                                <connections>
+                                    <action selector="handleTapWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="BgW-XB-sfQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -67,6 +75,13 @@
                             <constraint firstItem="Xpe-sj-vd5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="slq-xR-glx"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ogQ-Wh-QiR"/>
+                    <connections>
+                        <outlet property="pantsImage" destination="P5Z-n2-Gqr" id="28i-gD-2eP"/>
+                        <outlet property="shirtImage" destination="2fl-kX-sD4" id="8fT-gX-Z9Q"/>
+                        <outlet property="teddyImage" destination="Xpe-sj-vd5" id="6n3-YQ-gqw"/>
+                        <outlet property="trashCanImage" destination="DJ4-ud-anO" id="57X-vz-uv6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="YDs-jd-uca">
@@ -87,5 +102,6 @@
         <image name="pant-icon.png" width="619" height="575"/>
         <image name="shirt-icon.png" width="619" height="575"/>
         <image name="teddy.png" width="958" height="908"/>
+        <image name="trashcan.png" width="380" height="550"/>
     </resources>
 </document>

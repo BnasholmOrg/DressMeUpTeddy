@@ -12,14 +12,13 @@
 		60633F1F1F3E7D87003480AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60633F1D1F3E7D87003480AD /* Main.storyboard */; };
 		60633F211F3E7D87003480AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60633F201F3E7D87003480AD /* Assets.xcassets */; };
 		60633F241F3E7D87003480AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60633F221F3E7D87003480AD /* LaunchScreen.storyboard */; };
-		60633F301F3E7DDE003480AD /* pants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2B1F3E7DDE003480AD /* pants.jpg */; };
-		60633F311F3E7DDE003480AD /* shirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2C1F3E7DDE003480AD /* shirt.jpg */; };
-		60633F321F3E7DDE003480AD /* teddy-bear-pics-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2D1F3E7DDE003480AD /* teddy-bear-pics-15.jpg */; };
-		60633F331F3E7DDE003480AD /* teddywshirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2E1F3E7DDE003480AD /* teddywshirt.jpg */; };
-		60633F341F3E7DDE003480AD /* teddywshirtandpants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60633F2F1F3E7DDE003480AD /* teddywshirtandpants.jpg */; };
 		60633F371F429764003480AD /* teddy.png in Resources */ = {isa = PBXBuildFile; fileRef = 60633F361F429764003480AD /* teddy.png */; };
 		60633F391F42A98B003480AD /* shirt-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60633F381F42A98B003480AD /* shirt-icon.png */; };
 		60633F3B1F42A9A3003480AD /* pant-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60633F3A1F42A9A3003480AD /* pant-icon.png */; };
+		60633F3E1F47C22B003480AD /* teddy-w-shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 60633F3C1F47C22B003480AD /* teddy-w-shirt.png */; };
+		60633F3F1F47C22B003480AD /* teddy-w-shirtandpants.png in Resources */ = {isa = PBXBuildFile; fileRef = 60633F3D1F47C22B003480AD /* teddy-w-shirtandpants.png */; };
+		60633F411F47C34B003480AD /* teddy-w-pants.png in Resources */ = {isa = PBXBuildFile; fileRef = 60633F401F47C34B003480AD /* teddy-w-pants.png */; };
+		60633F431F47D403003480AD /* trashcan.png in Resources */ = {isa = PBXBuildFile; fileRef = 60633F421F47D403003480AD /* trashcan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +29,13 @@
 		60633F201F3E7D87003480AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60633F231F3E7D87003480AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60633F251F3E7D87003480AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60633F2B1F3E7DDE003480AD /* pants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pants.jpg; sourceTree = "<group>"; };
-		60633F2C1F3E7DDE003480AD /* shirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt.jpg; sourceTree = "<group>"; };
-		60633F2D1F3E7DDE003480AD /* teddy-bear-pics-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "teddy-bear-pics-15.jpg"; sourceTree = "<group>"; };
-		60633F2E1F3E7DDE003480AD /* teddywshirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddywshirt.jpg; sourceTree = "<group>"; };
-		60633F2F1F3E7DDE003480AD /* teddywshirtandpants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddywshirtandpants.jpg; sourceTree = "<group>"; };
 		60633F361F429764003480AD /* teddy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teddy.png; sourceTree = "<group>"; };
 		60633F381F42A98B003480AD /* shirt-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shirt-icon.png"; sourceTree = "<group>"; };
 		60633F3A1F42A9A3003480AD /* pant-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pant-icon.png"; sourceTree = "<group>"; };
+		60633F3C1F47C22B003480AD /* teddy-w-shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teddy-w-shirt.png"; sourceTree = "<group>"; };
+		60633F3D1F47C22B003480AD /* teddy-w-shirtandpants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teddy-w-shirtandpants.png"; sourceTree = "<group>"; };
+		60633F401F47C34B003480AD /* teddy-w-pants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teddy-w-pants.png"; sourceTree = "<group>"; };
+		60633F421F47D403003480AD /* trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trashcan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +68,11 @@
 		60633F181F3E7D87003480AD /* DressMeUpTeddy */ = {
 			isa = PBXGroup;
 			children = (
+				60633F421F47D403003480AD /* trashcan.png */,
 				60633F351F3E7DF1003480AD /* Images */,
 				60633F191F3E7D87003480AD /* AppDelegate.swift */,
 				60633F1B1F3E7D87003480AD /* ViewController.swift */,
+				60633F401F47C34B003480AD /* teddy-w-pants.png */,
 				60633F1D1F3E7D87003480AD /* Main.storyboard */,
 				60633F201F3E7D87003480AD /* Assets.xcassets */,
 				60633F221F3E7D87003480AD /* LaunchScreen.storyboard */,
@@ -87,11 +87,8 @@
 				60633F3A1F42A9A3003480AD /* pant-icon.png */,
 				60633F381F42A98B003480AD /* shirt-icon.png */,
 				60633F361F429764003480AD /* teddy.png */,
-				60633F2B1F3E7DDE003480AD /* pants.jpg */,
-				60633F2C1F3E7DDE003480AD /* shirt.jpg */,
-				60633F2D1F3E7DDE003480AD /* teddy-bear-pics-15.jpg */,
-				60633F2E1F3E7DDE003480AD /* teddywshirt.jpg */,
-				60633F2F1F3E7DDE003480AD /* teddywshirtandpants.jpg */,
+				60633F3C1F47C22B003480AD /* teddy-w-shirt.png */,
+				60633F3D1F47C22B003480AD /* teddy-w-shirtandpants.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -157,15 +154,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				60633F241F3E7D87003480AD /* LaunchScreen.storyboard in Resources */,
+				60633F431F47D403003480AD /* trashcan.png in Resources */,
 				60633F211F3E7D87003480AD /* Assets.xcassets in Resources */,
-				60633F341F3E7DDE003480AD /* teddywshirtandpants.jpg in Resources */,
-				60633F331F3E7DDE003480AD /* teddywshirt.jpg in Resources */,
-				60633F311F3E7DDE003480AD /* shirt.jpg in Resources */,
-				60633F301F3E7DDE003480AD /* pants.jpg in Resources */,
 				60633F1F1F3E7D87003480AD /* Main.storyboard in Resources */,
-				60633F321F3E7DDE003480AD /* teddy-bear-pics-15.jpg in Resources */,
+				60633F3F1F47C22B003480AD /* teddy-w-shirtandpants.png in Resources */,
 				60633F371F429764003480AD /* teddy.png in Resources */,
+				60633F3E1F47C22B003480AD /* teddy-w-shirt.png in Resources */,
 				60633F3B1F42A9A3003480AD /* pant-icon.png in Resources */,
+				60633F411F47C34B003480AD /* teddy-w-pants.png in Resources */,
 				60633F391F42A98B003480AD /* shirt-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +338,7 @@
 				60633F2A1F3E7D87003480AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
